@@ -39,12 +39,12 @@ def scrape_meta_tags(url):
         print(f"An error occurred: {e}")
         return None
         
-# usage
-# url = "https://treasureuzoma.brimble.app"
 
 while True:
 	url = input("Enter a url: https://")
-	
+	# usage
+	# url = "https://treasureuzoma.brimble.app"
+
 	meta_data = scrape_meta_tags("https://" + url)
 	
 	if meta_data:
